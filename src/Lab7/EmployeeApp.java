@@ -19,5 +19,8 @@ public class EmployeeApp {
         emp1.setSalary(20000);
 
 
+
+
+
     }//main
 }//class
