@@ -1,4 +1,4 @@
-package LAB6;
+package Lab6;
 
 import java.util.StringTokenizer;
 

@@ -3,7 +3,7 @@ package Lab7;
 public class StudentApp {
     public static void main(String[] args) {
         //create object of student class
-        LAB7.Student std1 = new LAB7.Student();
+        Lab7.Student std1 = new Lab7.Student();
 
         std1.introduce();
         //assign data to object
@@ -13,7 +13,7 @@ public class StudentApp {
 
         std1.introduce();
 
-        LAB7.Student std2 = new LAB7.Student();
+        Lab7.Student std2 = new Lab7.Student();
         std2.name = "intira sulak";
         std2.age = 23;
         std2.major = "AC";
