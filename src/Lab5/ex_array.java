@@ -25,6 +25,7 @@ public class ex_array {
         }
 
 
+
         // size array
         System.out.println(num.length);
 
