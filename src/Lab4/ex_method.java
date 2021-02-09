@@ -1,4 +1,4 @@
-package LAB4;
+package Lab4;
 
 public class ex_method {
 
