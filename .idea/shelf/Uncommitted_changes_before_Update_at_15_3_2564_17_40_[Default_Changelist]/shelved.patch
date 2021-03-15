@@ -1,0 +1,732 @@
+Index: src/LAB8/Circle.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/LAB8/Circle.java b/src/LAB8/Circle.java
+new file mode 100644
+--- /dev/null	(date 1615804129846)
++++ b/src/LAB8/Circle.java	(date 1615804129846)
+@@ -0,0 +1,21 @@
++package LAB8;
++
++public class Circle extends Object2D {
++
++    // constant
++    private static final double PI = 3.141;
++    //attribute
++    private double radius;
++
++    // constructor
++    public Circle(double radius) {
++        this.radius = radius;
++    }
++
++    //@Override
++    public void calArea() {
++        //circle area = PI *(r*r);
++        double area = PI * radius * radius;
++        super.setArea(area);
++    }
++}
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"875f278d-e463-437e-8d64-f7f8a2e5254d\" name=\"Default Changelist\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1ms2qNSNYQC3bAPXC4VT6s2Cizu\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Application.ex_do_while\">\r\n    <configuration name=\"ex_do_while\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"LAB3.ex_do_while\" />\r\n      <module name=\"OOP_2563_362211760016\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"LAB3.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ex_if\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"LAB3.ex_if\" />\r\n      <module name=\"OOP_2563_362211760016\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"LAB3.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ex_if_else_if\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"LAB3.ex_if_else_if\" />\r\n      <module name=\"OOP_2563_362211760016\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"LAB3.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ex_switch\" type=\"Application\" factoryName=\"Application\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"LAB3.ex_switch\" />\r\n      <module name=\"OOP_2563_362211760016\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"LAB3.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.ex_do_while\" />\r\n        <item itemvalue=\"Application.ex_if_else_if\" />\r\n        <item itemvalue=\"Application.ex_if\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"875f278d-e463-437e-8d64-f7f8a2e5254d\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1610268190330</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1610268190330</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"lab3\">\r\n      <created>1610269845394</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1610269845394</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"lab3\">\r\n      <created>1610270039537</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1610270039537</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"lab3\">\r\n      <created>1610270184476</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1610270184476</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"lab3\">\r\n      <created>1610465578315</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1610465578315</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"lab3\">\r\n      <created>1610466339685</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1610466339685</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"lab3\">\r\n      <created>1610466429485</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1610466429485</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"lab4\">\r\n      <created>1610466647377</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1610466647377</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"5\">\r\n      <created>1610466771584</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1610466771584</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"T\">\r\n      <created>1610466804990</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1610466804990</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"10\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"lab3\" />\r\n    <MESSAGE value=\"lab4\" />\r\n    <MESSAGE value=\"5\" />\r\n    <MESSAGE value=\"T\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"T\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/LAB3/ex_if.java</url>\r\n          <line>9</line>\r\n          <option name=\"timeStamp\" value=\"1\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 75a9681be027eb4fe7447006e8aabfa4137adc4d)
++++ b/.idea/workspace.xml	(date 1615804816452)
+@@ -2,6 +2,20 @@
+ <project version="4">
+   <component name="ChangeListManager">
+     <list default="true" id="875f278d-e463-437e-8d64-f7f8a2e5254d" name="Default Changelist" comment="">
++      <change afterPath="$PROJECT_DIR$/src/LAB8/Circle.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/LAB8/CompanyApp.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/LAB8/Doctor.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/LAB8/Employee.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/LAB8/ICar.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/LAB8/ILight.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/LAB8/Object2D.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/LAB8/Object2DApp.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/LAB8/Person.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/LAB8/PersonApp.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/LAB8/Rectangle.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/LAB8/Teacher.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/LAB8/Toyota.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/LAB8/Triangle.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+@@ -28,8 +42,29 @@
+     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+   </component>
+-  <component name="RunManager" selected="Application.ex_do_while">
+-    <configuration name="ex_do_while" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++  <component name="RecentsManager">
++    <key name="CreateClassDialog.RecentsKey">
++      <recent name="LAB8" />
++    </key>
++    <key name="ExtractSuperBase.RECENT_KEYS">
++      <recent name="LAB8" />
++    </key>
++  </component>
++  <component name="RunManager" selected="Application.Ex1">
++    <configuration name="Ex1" type="Application" factoryName="Application" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="HomeWork.Ex1" />
++      <module name="OOP_2563_362211760016" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="HomeWork.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="ex_do_while" type="Application" factoryName="Application" nameIsGenerated="true">
+       <option name="MAIN_CLASS_NAME" value="LAB3.ex_do_while" />
+       <module name="OOP_2563_362211760016" />
+       <extension name="coverage">
+@@ -42,7 +77,7 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="ex_if" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++    <configuration name="ex_if" type="Application" factoryName="Application" nameIsGenerated="true">
+       <option name="MAIN_CLASS_NAME" value="LAB3.ex_if" />
+       <module name="OOP_2563_362211760016" />
+       <extension name="coverage">
+@@ -55,7 +90,7 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="ex_if_else_if" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++    <configuration name="ex_if_else_if" type="Application" factoryName="Application" nameIsGenerated="true">
+       <option name="MAIN_CLASS_NAME" value="LAB3.ex_if_else_if" />
+       <module name="OOP_2563_362211760016" />
+       <extension name="coverage">
+@@ -81,13 +116,6 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <recent_temporary>
+-      <list>
+-        <item itemvalue="Application.ex_do_while" />
+-        <item itemvalue="Application.ex_if_else_if" />
+-        <item itemvalue="Application.ex_if" />
+-      </list>
+-    </recent_temporary>
+   </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+@@ -161,7 +189,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1610466804990</updated>
+     </task>
+-    <option name="localTasksCounter" value="10" />
++    <task id="LOCAL-00010" summary="OOP">
++      <created>1610467620591</created>
++      <option name="number" value="00010" />
++      <option name="presentableId" value="LOCAL-00010" />
++      <option name="project" value="LOCAL" />
++      <updated>1610467620591</updated>
++    </task>
++    <option name="localTasksCounter" value="11" />
+     <servers />
+   </component>
+   <component name="VcsManagerConfiguration">
+@@ -169,7 +204,8 @@
+     <MESSAGE value="lab4" />
+     <MESSAGE value="5" />
+     <MESSAGE value="T" />
+-    <option name="LAST_COMMIT_MESSAGE" value="T" />
++    <MESSAGE value="OOP" />
++    <option name="LAST_COMMIT_MESSAGE" value="OOP" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
+Index: src/LAB8/CompanyApp.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/LAB8/CompanyApp.java b/src/LAB8/CompanyApp.java
+new file mode 100644
+--- /dev/null	(date 1615803640049)
++++ b/src/LAB8/CompanyApp.java	(date 1615803640049)
+@@ -0,0 +1,25 @@
++package LAB8;
++
++public class CompanyApp {
++
++    public static void main(String[] args) {
++
++        Employee emp1 = new Employee();
++
++        emp1.setPid("180991102541");
++        emp1.setName("Puriwat Lertkrai");
++        emp1.setAge(34);
++        emp1.setGender("Male");
++        emp1.setTel("083539xxxx");
++
++        emp1.setEmpID("emp001");
++        emp1.setPosition("Programmer");
++        emp1.setSalary(30000.00);
++
++        //display object data
++        System.out.println(emp1.toString());
++
++
++
++    }//main
++}//class
+\ No newline at end of file
+Index: src/LAB8/Doctor.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/LAB8/Doctor.java b/src/LAB8/Doctor.java
+new file mode 100644
+--- /dev/null	(date 1615803717109)
++++ b/src/LAB8/Doctor.java	(date 1615803717109)
+@@ -0,0 +1,29 @@
++package LAB8;
++
++public class Doctor extends Person {
++    private String hospital;
++
++    //constructor
++
++    public Doctor() {
++
++    }
++
++    public Doctor(String hospital) {
++        this.hospital = hospital;
++    }
++    //getter and setter
++
++    public String getHospital() {
++        return hospital;
++    }
++
++    public void setHospital(String hospital) {
++        this.hospital = hospital;
++    }
++
++    public void introduce(){
++        super.introduce();
++        System.out.println("I am a doctor at "+hospital+" hospital");
++    }
++}
+\ No newline at end of file
+Index: src/LAB8/Employee.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/LAB8/Employee.java b/src/LAB8/Employee.java
+new file mode 100644
+--- /dev/null	(date 1615803792325)
++++ b/src/LAB8/Employee.java	(date 1615803792325)
+@@ -0,0 +1,63 @@
++package LAB8;
++
++public class Employee extends Person {
++    //Class Attributes
++    private String empID; //รหัสพนักงาน
++    private String position;
++    private double salary;
++    //constructors
++
++    public Employee() {
++    }
++
++    public Employee(String pid, String name
++            , int age, String gender, String tel,
++                    String empID, String position,
++                    double salary) {
++
++        // calling constructor of super-class
++        super(pid, name, age, gender, tel);
++
++        this.empID = empID;
++        this.position = position;
++        this.salary = salary;
++    }
++    //getter and setter
++
++    public String getEmpID() {
++        return empID;
++    }
++
++    public void setEmpID(String empID) {
++        this.empID = empID;
++    }
++
++    public String getPosition() {
++        return position;
++    }
++
++    public void setPosition(String position) {
++        this.position = position;
++    }
++
++    public double getSalary() {
++        return salary;
++    }
++
++    public void setSalary(double salary) {
++        this.salary = salary;
++    }
++
++    //toString()
++
++    @Override
++    public String toString() {
++        return "Employee{" +
++                "empID='" + empID + '\'' +
++                ", position='" + position + '\'' +
++                ", salary=" + salary +
++                "} " + super.toString();
++    }
++
++
++}
+\ No newline at end of file
+Index: src/LAB8/ICar.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/LAB8/ICar.java b/src/LAB8/ICar.java
+new file mode 100644
+--- /dev/null	(date 1615804213309)
++++ b/src/LAB8/ICar.java	(date 1615804213309)
+@@ -0,0 +1,10 @@
++package LAB8;
++
++public interface ICar {
++
++    public void engineStart();
++    public void gearChange(int newGear);
++    public void turnLeft();
++    public void turnRight();
++    public void engineBreak();
++}
+\ No newline at end of file
+Index: src/LAB8/ILight.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/LAB8/ILight.java b/src/LAB8/ILight.java
+new file mode 100644
+--- /dev/null	(date 1615804244496)
++++ b/src/LAB8/ILight.java	(date 1615804244496)
+@@ -0,0 +1,11 @@
++package LAB8;
++
++public interface ILight extends extreamILight{
++    public  void turnOn();
++    public  void turnOff();
++
++}
++
++interface  extreamILight {
++    public void autoHiBeam();
++}
+\ No newline at end of file
+Index: src/LAB8/Object2D.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/LAB8/Object2D.java b/src/LAB8/Object2D.java
+new file mode 100644
+--- /dev/null	(date 1615804309744)
++++ b/src/LAB8/Object2D.java	(date 1615804309744)
+@@ -0,0 +1,28 @@
++package LAB8;
++
++public abstract class Object2D {
++    //attributes
++    private String b_color;
++    private double area;
++
++    //abstract method
++    abstract public void calArea();
++
++    //getter and setter
++
++    public String getB_color() {
++        return b_color;
++    }
++
++    public void setB_color(String b_color) {
++        this.b_color = b_color;
++    }
++
++    public double getArea() {
++        return area;
++    }
++
++    public void setArea(double area) {
++        this.area = area;
++    }
++}
+\ No newline at end of file
+Index: src/LAB8/Object2DApp.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/LAB8/Object2DApp.java b/src/LAB8/Object2DApp.java
+new file mode 100644
+--- /dev/null	(date 1615804700144)
++++ b/src/LAB8/Object2DApp.java	(date 1615804700144)
+@@ -0,0 +1,28 @@
++package LAB8;
++
++import java.awt.*;
++import java.util.ArrayList;
++
++public class Object2DApp {
++    public static void main(String[] args) {
++        //Circle
++        Circle c1 = new Circle(10.0);
++        c1.calArea();
++        System.out.println(c1.getArea());
++        //Rectangle
++        Rectangle r1;
++        r1 = new Rectangle();
++        //r1.calArea();
++        //System.out.println(r1.getArea());
++        //Triangle
++        //Triangle t1 = new Triangle(10.0, 5.0);
++        //t1.calArea();
++        //System.out.println(t1.getArea());
++
++        ArrayList<Object2D> myObject = new ArrayList<Object2D>();
++        myObject.add(c1);
++        //myObject.add();
++        //myObject.add();
++
++    }//main
++}//class
+Index: src/LAB8/Person.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/LAB8/Person.java b/src/LAB8/Person.java
+new file mode 100644
+--- /dev/null	(date 1615804494992)
++++ b/src/LAB8/Person.java	(date 1615804494992)
+@@ -0,0 +1,82 @@
++package LAB8;
++
++public class Person {
++    //Class Attributes
++    private String pid; //เลขบัตรประชาชน
++    private String name;
++    private int age;
++    private String gender;
++    private String tel;
++    //constructors
++
++    public Person() {
++    }
++
++    public Person(String pid, String name, int age, String gender, String tel) {
++        this.pid = pid;
++        this.name = name;
++        this.age = age;
++        this.gender = gender;
++        this.tel = tel;
++    }
++    //getter and setter
++
++    public String getPid() {
++        return pid;
++    }
++
++    public void setPid(String pid) {
++        this.pid = pid;
++    }
++
++    public String getName() {
++        return name;
++    }
++
++    public void setName(String name) {
++        this.name = name;
++    }
++
++    public int getAge() {
++        return age;
++    }
++
++    public void setAge(int age) {
++        this.age = age;
++    }
++
++    public String getGender() {
++        return gender;
++    }
++
++    public void setGender(String gender) {
++        this.gender = gender;
++    }
++
++    public String getTel() {
++        return tel;
++    }
++
++    public void setTel(String tel) {
++        this.tel = tel;
++    }
++
++    //toString
++
++
++    @Override
++    public String toString() {
++        return "Person{" +
++                "pid='" + pid + '\'' +
++                ", name='" + name + '\'' +
++                ", age=" + age +
++                ", gender='" + gender + '\'' +
++                ", tel='" + tel + '\'' +
++                '}';
++    }
++
++    public void introduce(){
++        System.out.println("My name is +" + name);
++        System.out.println("I am "+age+" year old.");
++    }
++}
+\ No newline at end of file
+Index: src/LAB8/PersonApp.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/LAB8/PersonApp.java b/src/LAB8/PersonApp.java
+new file mode 100644
+--- /dev/null	(date 1615804584636)
++++ b/src/LAB8/PersonApp.java	(date 1615804584636)
+@@ -0,0 +1,25 @@
++package LAB8;
++
++public class PersonApp {
++    public static void main(String[] args) {
++
++        //objects
++
++        Person p1 = new Person();
++        p1.setName("nattha");
++        p1.setAge(21);
++
++        Person p2 = new Teacher("RUTS");
++        p2.setName("puriwat");
++        p2.setAge(34);
++
++        Person p3 = new Doctor("Thungsong");
++        p3.setName("Nattapong Kaewboonam ");
++        p3.setAge(40);
++        //call introduce
++        p1.introduce();
++        p2.introduce();
++        p3.introduce();
++
++    }
++}
+\ No newline at end of file
+Index: src/LAB8/Teacher.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/LAB8/Teacher.java b/src/LAB8/Teacher.java
+new file mode 100644
+--- /dev/null	(date 1615804700134)
++++ b/src/LAB8/Teacher.java	(date 1615804700134)
+@@ -0,0 +1,25 @@
++package LAB8;
++
++public class PersonApp {
++    public static void main(String[] args) {
++
++        //objects
++
++        Person p1 = new Person();
++        p1.setName("nattha");
++        p1.setAge(21);
++
++        //Person p2 = new Teacher("RUTS");
++        //p2.setName("puriwat");
++        //p2.setAge(34);
++
++        Person p3 = new Doctor("Thungsong");
++        p3.setName("Nattapong Kaewboonam ");
++        p3.setAge(40);
++        //call introduce
++        p1.introduce();
++        //p2.introduce();
++        p3.introduce();
++
++    }
++}
+\ No newline at end of file
+Index: src/LAB8/Rectangle.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/LAB8/Rectangle.java b/src/LAB8/Rectangle.java
+new file mode 100644
+--- /dev/null	(date 1615804741685)
++++ b/src/LAB8/Rectangle.java	(date 1615804741685)
+@@ -0,0 +1,36 @@
++package LAB8;
++
++public class Rectangle  extends Object2D{
++    //attributes
++    private double width;
++    private double lenght;
++    //constructor
++
++    public Rectangle(double width, double lenght) {
++        this.width = width;
++        this.lenght = lenght;
++    }
++
++    @Override
++    public void calArea() {
++        double area = width * lenght;
++        super.setArea(area);
++    }
++    //getter and setter
++
++    public double getWidth() {
++        return width;
++    }
++
++    public void setWidth(double width) {
++        this.width = width;
++    }
++
++    public double getLenght() {
++        return lenght;
++    }
++
++    public void setLenght(double lenght) {
++        this.lenght = lenght;
++    }
++}
+\ No newline at end of file
+Index: src/LAB8/Toyota.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/LAB8/Toyota.java b/src/LAB8/Toyota.java
+new file mode 100644
+--- /dev/null	(date 1615804781324)
++++ b/src/LAB8/Toyota.java	(date 1615804781324)
+@@ -0,0 +1,35 @@
++package LAB8;
++
++public class Toyota implements ICar,ILight,extreamILight{
++    @Override
++    public void engineStart() {
++    }
++    @Override
++    public void gearChange(int newGear) {
++    }
++    @Override
++    public void turnLeft() {
++    }
++    @Override
++    public void turnRight() {
++    }
++    @Override
++    public void engineBreak() {
++
++    }
++
++    @Override
++    public void turnOn() {
++
++    }
++
++    @Override
++    public void turnOff() {
++
++    }
++
++    @Override
++    public void autoHiBeam() {
++
++    }
++}
+\ No newline at end of file
+Index: src/LAB8/Triangle.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/LAB8/Triangle.java b/src/LAB8/Triangle.java
+new file mode 100644
+--- /dev/null	(date 1615804816386)
++++ b/src/LAB8/Triangle.java	(date 1615804816386)
+@@ -0,0 +1,40 @@
++package LAB8;
++
++public class Triangle extends Object2D{
++    //attributes
++    private double base;
++    private double height;
++
++    //constructor
++
++
++    public Triangle(double base, double height) {
++        this.base = base;
++        this.height = height;
++    }
++
++    @Override
++    public void calArea() {
++
++        double area = base * height * 0.5;
++        super.setArea(area);
++    }
++
++    //getter and setter
++
++    public double getBase() {
++        return base;
++    }
++
++    public void setBase(double base) {
++        this.base = base;
++    }
++
++    public double getHeight() {
++        return height;
++    }
++
++    public void setHeight(double height) {
++        this.height = height;
++    }
++}
+\ No newline at end of file
