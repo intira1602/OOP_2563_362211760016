@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="875f278d-e463-437e-8d64-f7f8a2e5254d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LAB9/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LAB9/MIT_Company_App.java" afterDir="false" />
+    <list default="true" id="875f278d-e463-437e-8d64-f7f8a2e5254d" name="Default Changelist" comment="123">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP_2563_362211760016/LAB4/ex_login_system.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP_2563_362211760016/LAB4/ex_method.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP_2563_362211760016/LAB4/ex_overload_method.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP_2563_362211760016/LAB5/ex_Array2D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP_2563_362211760016/LAB5/ex_array.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP_2563_362211760016/LAB5/ex_array2.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LAB4/ex_login_system.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LAB4/ex_login_system.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LAB4/ex_method.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LAB4/ex_method.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LAB4/ex_overload_method.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LAB4/ex_overload_method.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LAB5/ex_Array2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LAB5/ex_Array2D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LAB5/ex_array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LAB5/ex_array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LAB5/ex_array2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LAB5/ex_array2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LAB5/ex_Array2D.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LAB5/ex_array.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LAB5/ex_array2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LAB8/Object2DApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LAB8/Object2DApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LAB8/PersonApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LAB8/PersonApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LAB8/Teacher.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +42,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -196,7 +205,21 @@
       <option name="project" value="LOCAL" />
       <updated>1615804919435</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="123">
+      <created>1615805153535</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1615805153535</updated>
+    </task>
+    <task id="LOCAL-00013" summary="123">
+      <created>1615805987147</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1615805987147</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -205,7 +228,8 @@
     <MESSAGE value="5" />
     <MESSAGE value="T" />
     <MESSAGE value="OOP" />
-    <option name="LAST_COMMIT_MESSAGE" value="OOP" />
+    <MESSAGE value="123" />
+    <option name="LAST_COMMIT_MESSAGE" value="123" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

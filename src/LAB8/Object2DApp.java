@@ -11,7 +11,7 @@ public class Object2DApp {
         System.out.println(c1.getArea());
         //Rectangle
         Rectangle r1;
-        r1 = new Rectangle();
+        //r1 = new Rectangle();
         //r1.calArea();
         //System.out.println(r1.getArea());
         //Triangle
